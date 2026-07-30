@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+*.spec
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local runtime data and secrets
+.env
+.env.*
+!.env.example
+config_radio_power.json
+*.local.json
+*.log
+recordings/
+ffmpeg/
+
+# User media and exports
+*.m3u
+*.m3u8
+mis_seteos_eq.json

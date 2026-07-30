@@ -1,0 +1,29 @@
+name: Feature request
+description: Suggest an improvement for noncommercial project development
+title: "feat: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What user need would this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: license
+    attributes:
+      label: License acknowledgement
+      options:
+        - label: I understand this repository is licensed for permitted noncommercial use.
+          required: true
